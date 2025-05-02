@@ -41,3 +41,17 @@ src/
 │ └── SportObject.java // Модель данных
 └── resources/
 └── Объекты спорта.csv // Входной файл CSV
+
+🧱 Структура БД (3НФ)
+- regions(id, name)
+- sport_objects(id, name, region_id, address, register_date)
+
+✍ Авторы
+Студент группы РИЗ-320045д Глазков Михаил Андреевич
+
+📊 Скриншоты
+✅ SQL: Среднее количество и 🥇 Топ-3 регионов
+![СКрин1](https://github.com/user-attachments/assets/666aff7a-9de7-4673-ad61-ab93fe49f44f)
+📈 Гистограмма
+![histogram](https://github.com/user-attachments/assets/7cacabcd-c448-4e2c-b0f8-048e41a4ca52)
+
